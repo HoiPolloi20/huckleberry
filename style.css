@@ -10,3 +10,31 @@ body {
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  padding: 48px;
+  font-size: 1.25rem;
+}
+
+.max-width-wrapper.bottom {
+  background-color: hsl(0deg, 0%, 60%);
+  border: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  max-width: 800px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 60%);
+  padding: 16px;
+  width: max-content;
+  margin-top: -8px;
+  margin-left: -32px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
